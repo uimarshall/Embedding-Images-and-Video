@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="stylesheet" href="css/styles.css">
     <!--Font Awesome-->
     <script src="https://use.fontawesome.com/f09ac01b76.js"></script>
     <title>Youtube Clone</title>
@@ -12,19 +12,25 @@
 
 <body>
     <header>
-        <nav>
-            <div class="harmburger">
-                <i class="fa fa-bars"></i>
+        <nav id="main-nav">
+            <div>
+                <span class="harmburger">
+                    <i class="fa fa-bars"></i>
+                </span>
+                <img src="images/youtube-logo.png" alt="logo"/>
             </div>
-            <img src="images/youtube-logo.png" alt="logo" />
-            <input type="text" placeholder="Search" class="search-box" />
-            <button class="btn-search">
+            <div>
+                <input type="text" placeholder="Search" class="search-box" />
+                <button class="btn-search">
 					<i class="fa fa-search" aria-hidden="true"></i>
 				</button>
-            <img src="images/ytb_camera.png" alt="camera" />
-            <img src="images/ytb_menu.png" alt="app menu" />
-            <img src="images/ellipsis.png" alt="ellipses" />
-            <button>Sign in</button>
+            </div>
+            <div>
+                <img src="images/ytb_camera.png" alt="camera" style="width: 20px;"/>
+                <img src="images/ytb_menu.png" alt="app menu" style="width: 20px;"/>
+                <img src="images/ellipsis.png" alt="ellipses" style="width: 20px;"/>
+                <button>Sign in</button>
+            </div>
         </nav>
     </header>
 </body>
