@@ -12,13 +12,70 @@ img{width: 100%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    align-items: center;
     padding: 10px 30px;
     height: 50px;
 }
 
-
-#main-nav > div{
+.nav-items-left{
     display: flex;
     flex-flow: row nowrap;
+}
 
+.nav-items-left > div > img{
+    width: 6vw;
+    margin-left: 1.5vw;
+}
+
+.nav-items-left > div > * {
+    vertical-align: middle;
+}
+
+.nav-items-center {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.nav-items-center > *{
+    font-size: 1rem;
+}
+
+input[type='text'] {
+    width: 50vw;
+    height: 3vh;
+    padding: 0;
+    margin: 0;
+}
+.btn-search {
+    width: 6vw;
+    height: 3vh;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    border-left: none;
+}
+
+.nav-items-right{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.nav-items-right > div {
+    width: 1.5vw;
+    height: 1.5vw;
+    margin: 0 .75vw;
+}
+
+.nav-items-right > div > img {
+    vertical-align: middle;
+    margin: 0 auto;
+    object-fit: contain; 
+}
+
+.btn-signin {
+    font-size: 1rem;
+    color: white;
+    background-color: #167ac6;
+    height: 3vh;
+    border: 1px #ccc solid;
+    border-radius: 2px;
 }

@@ -11,28 +11,37 @@
 </head>
 
 <body>
-    <header>
-        <nav id="main-nav">
+    <!--Navagation bar-->
+    <nav id="main-nav">
+        <div class="nav-items-left">
+            <div class="harmburger">
+                <i class="fa fa-bars"></i>
+            </div>
             <div>
-                <span class="harmburger">
-                    <i class="fa fa-bars"></i>
-                </span>
                 <img src="images/youtube-logo.png" alt="logo"/>
             </div>
+        </div>
+        <div class="nav-items-center">
+            <input type="text" placeholder="Search" class="search-box" />
+            <button class="btn-search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+        </div>
+        <div class="nav-items-right">
             <div>
-                <input type="text" placeholder="Search" class="search-box" />
-                <button class="btn-search">
-					<i class="fa fa-search" aria-hidden="true"></i>
-				</button>
+                <img src="images/ytb_camera.png" alt="camera" />
             </div>
             <div>
-                <img src="images/ytb_camera.png" alt="camera" style="width: 20px;"/>
-                <img src="images/ytb_menu.png" alt="app menu" style="width: 20px;"/>
-                <img src="images/ellipsis.png" alt="ellipses" style="width: 20px;"/>
-                <button>Sign in</button>
+                <img src="images/ytb_menu.png" alt="app menu" />
             </div>
-        </nav>
-    </header>
+            <div>
+                <img src="images/ellipsis.png" alt="ellipses" />
+            </div>
+            <button class="btn-signin">Sign in</button>
+        </div>
+    </nav>
+    <!--End of navigation bar -->
+
 </body>
 
 </html>
