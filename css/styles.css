@@ -1,13 +1,14 @@
-body{
+body {
     background-color: #ccc;
     margin: 0 0;
     box-sizing: border-box;
 }
 
-img{width: 100%;
-    }
+img {
+    width: 100%;
+}
 
-#main-nav{
+#main-nav {
     background-color: white;
     display: flex;
     flex-flow: row nowrap;
@@ -17,17 +18,17 @@ img{width: 100%;
     height: 50px;
 }
 
-.nav-items-left{
+.nav-items-left {
     display: flex;
     flex-flow: row nowrap;
 }
 
-.nav-items-left > div > img{
+.nav-items-left>div>img {
     width: 6vw;
     margin-left: 1.5vw;
 }
 
-.nav-items-left > div > * {
+.nav-items-left>div>* {
     vertical-align: middle;
 }
 
@@ -35,16 +36,18 @@ img{width: 100%;
     display: flex;
     flex-flow: row nowrap;
 }
-.nav-items-center > *{
+
+.nav-items-center>* {
     font-size: 1rem;
 }
 
-input[type='text'] {
+input[type="text"] {
     width: 50vw;
     height: 3vh;
     padding: 0;
     margin: 0;
 }
+
 .btn-search {
     width: 6vw;
     height: 3vh;
@@ -54,21 +57,21 @@ input[type='text'] {
     border-left: none;
 }
 
-.nav-items-right{
+.nav-items-right {
     display: flex;
     flex-flow: row nowrap;
 }
 
-.nav-items-right > div {
+.nav-items-right>div {
     width: 1.5vw;
     height: 1.5vw;
-    margin: 0 .75vw;
+    margin: 0 0.75vw;
 }
 
-.nav-items-right > div > img {
+.nav-items-right>div>img {
     vertical-align: middle;
     margin: 0 auto;
-    object-fit: contain; 
+    object-fit: contain;
 }
 
 .btn-signin {
@@ -79,3 +82,13 @@ input[type='text'] {
     border: 1px #ccc solid;
     border-radius: 2px;
 }
+
+
+/* Banner */
+
+.banner {
+    background: #167ac6;
+}
+
+
+/* End Banner */
