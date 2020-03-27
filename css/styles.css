@@ -247,8 +247,29 @@ div.socials:first-child {
     color: #616161;
 }
 
-
 /* End of video title section */
 
+/* Article */
+
+article.main-content-items {
+    font-size: 14px;
+    padding: 15px;
+}
+
+article.main-content-items h2 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.show-more {
+    text-align: center;
+}
+.show-more a {
+    text-decoration: none;
+    color: #616161;
+}
+
+
+/* End of article */
 
 /* End Main Content Section */
