@@ -145,11 +145,6 @@ div.col-1 {
     height: 100%;
 }
 
-aside.col-2 {
-    background: #ffffff;
-    flex: 0 1 30%;
-}
-
 
 /* Video section title */
 
@@ -247,7 +242,9 @@ div.socials:first-child {
     color: #616161;
 }
 
+
 /* End of video title section */
+
 
 /* Article */
 
@@ -264,6 +261,7 @@ article.main-content-items h2 {
 .show-more {
     text-align: center;
 }
+
 .show-more a {
     text-decoration: none;
     color: #616161;
@@ -272,9 +270,10 @@ article.main-content-items h2 {
 
 /* End of article */
 
+
 /* comment section */
 
-div.main-content-items{
+div.main-content-items {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -291,6 +290,51 @@ div.main-content-items{
     width: 1.5rem;
 }
 
+
 /* end of comment section */
+
+
+/* Aside section */
+
+aside.col-2 {
+    background: #ffffff;
+    flex: 0 1 30%;
+    padding: 15px;
+}
+
+aside.col-2 .side-video-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.toggle .btn-toggle {
+    color: #167ac6;
+}
+
+section.thumbnails a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+section.thumbnails a .video-title {
+    margin-bottom: 10px;
+}
+
+.video-title h2 {
+    color: black;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.video-title p {
+    color: #616161;
+    font-size: 12px;
+}
+
+
+/* End Aside section */
+
 
 /* End Main Content Section */
