@@ -272,4 +272,25 @@ article.main-content-items h2 {
 
 /* End of article */
 
+/* comment section */
+
+div.main-content-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.loader {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.loader img {
+    width: 1.5rem;
+}
+
+/* end of comment section */
+
 /* End Main Content Section */
