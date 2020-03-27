@@ -117,6 +117,7 @@ input[type="text"] {
 
 /* End Banner */
 
+
 /* Main Content Section */
 
 #main-content {
@@ -149,9 +150,10 @@ aside.col-2 {
     flex: 0 1 30%;
 }
 
+
 /* Video section title */
 
-section.main-content-items{
+section.main-content-items {
     font-size: 14px;
     padding: 15px;
 }
@@ -173,10 +175,17 @@ section.main-content-items{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    position: relative;
 }
+
 .user-info-left {
     display: flex;
     flex-flow: row nowrap;
+}
+
+.video-info header {
+    margin-bottom: 8px;
+    font-size: 24px;
 }
 
 .channel-info {
@@ -193,10 +202,12 @@ section.main-content-items{
     flex-flow: row nowrap;
 }
 
-.subscription input{
+.subscription input {
     width: 35px;
+    text-align: center;
 }
-.subscription button{
+
+.subscription button {
     color: #ffffff;
     background-color: #ff0000;
     box-shadow: none;
@@ -204,8 +215,40 @@ section.main-content-items{
     width: 100px;
 }
 
-/* End of video title section */
+.user-info .views {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    color: #616161;
+    font-size: 24px;
+}
 
+.socials {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.socials:first-child {
+    width: 20%;
+}
+
+.socials ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.socials ul li {
+    margin-right: 10px;
+}
+
+.socials ul li a {
+    text-decoration: none;
+    color: #616161;
+}
+
+
+/* End of video title section */
 
 
 /* End Main Content Section */
