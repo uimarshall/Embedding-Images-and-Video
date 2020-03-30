@@ -24,12 +24,12 @@ img {
     flex-flow: row nowrap;
 }
 
-.logo-margin{
+.logo-margin {
     margin-left: 1.5vw;
 }
 
 .ytb-logo {
-    width: 6vw;  
+    width: 115px;
 }
 
 .nav-items-left>div>* {
@@ -45,20 +45,25 @@ img {
     font-size: 1rem;
 }
 
-input[type="text"] {
+.search-box {
     width: 50vw;
-    height: 3vh;
+    height: 4vh;
     padding: 0;
     margin: 0;
+    border: 1px solid #eee;
+}
+
+.search-box[placeholder] {
+    padding-left: 10px;
 }
 
 .btn-search {
     width: 6vw;
-    height: 3vh;
+    height: 4.3vh;
     padding: 0;
     margin: 0;
-    background-color: white;
-    border-left: none;
+    border: 1px solid #eee;
+    background-color: #ffffff;
 }
 
 .nav-items-right {
@@ -72,6 +77,10 @@ input[type="text"] {
     margin: 0 0.75vw;
 }
 
+.nav-items-right>div>a {
+    color: #777;
+}
+
 .nav-items-right>div>img {
     vertical-align: middle;
     margin: 0 auto;
@@ -79,12 +88,13 @@ input[type="text"] {
 }
 
 .btn-signin {
-    font-size: 1rem;
+    font-size: 0.75rem;
     color: white;
     background-color: #167ac6;
-    height: 3vh;
+    height: 4vh;
     border: 1px #ccc solid;
-    border-radius: 2px;
+    border-radius: 3px;
+    padding: 5px;
 }
 
 
@@ -342,15 +352,17 @@ section.thumbnails a .video-title {
 
 /* End Main Content Section */
 
+
 /* Page Footer */
+
 footer {
     background: #ffffff;
     padding: 15px 30px;
     margin-top: 80px;
-    font-size: .75rem;
+    font-size: 0.75rem;
 }
 
-footer ul{
+footer ul {
     display: flex;
     flex-flow: row wrap;
     margin-bottom: 10px;
@@ -360,24 +372,26 @@ footer hr {
     margin: 15px 0;
 }
 
-footer ul li{
+footer ul li {
     margin-right: 20px;
 }
 
-footer a{
+footer a {
     text-decoration: none;
     color: #222;
 }
 
-footer select, footer button{
+footer select,
+footer button {
     background-color: #ffffff;
     height: 25px;
     border: 1px solid #a3a3a3;
 }
 
-.footer-links-upper{
+.footer-links-upper {
     font-weight: bold;
-    font-size: .8rem;
+    font-size: 0.8rem;
 }
+
 
 /* End of page footer */
