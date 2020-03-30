@@ -69,9 +69,14 @@ img {
 .nav-items-right {
     display: flex;
     flex-flow: row nowrap;
+    align-items: center;
 }
 
 .nav-items-right>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
     width: 1.5vw;
     height: 1.5vw;
     margin: 0 0.75vw;
