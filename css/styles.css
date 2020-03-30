@@ -321,8 +321,14 @@ aside.col-2 .side-video-header {
     margin-bottom: 10px;
 }
 
+.toggle span{
+    vertical-align: top;
+    color: #777;
+}
+
 .toggle .btn-toggle {
     color: #167ac6;
+    font-size: 1.5rem;
 }
 
 section.thumbnails a {
@@ -333,6 +339,10 @@ section.thumbnails a {
 
 section.thumbnails a .video-title {
     margin-bottom: 10px;
+}
+
+.video-title{
+    margin-left: 10px;
 }
 
 .video-title h2 {
