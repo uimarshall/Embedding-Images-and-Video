@@ -24,9 +24,12 @@ img {
     flex-flow: row nowrap;
 }
 
-.nav-items-left>div>img {
-    width: 6vw;
+.logo-margin{
     margin-left: 1.5vw;
+}
+
+.ytb-logo {
+    width: 6vw;  
 }
 
 .nav-items-left>div>* {
@@ -338,3 +341,43 @@ section.thumbnails a .video-title {
 
 
 /* End Main Content Section */
+
+/* Page Footer */
+footer {
+    background: #ffffff;
+    padding: 15px 30px;
+    margin-top: 80px;
+    font-size: .75rem;
+}
+
+footer ul{
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+}
+
+footer hr {
+    margin: 15px 0;
+}
+
+footer ul li{
+    margin-right: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #222;
+}
+
+footer select, footer button{
+    background-color: #ffffff;
+    height: 25px;
+    border: 1px solid #a3a3a3;
+}
+
+.footer-links-upper{
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+/* End of page footer */
