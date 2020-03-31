@@ -36,9 +36,9 @@ This repository is for cloning youtube web page.
 
 - Github: [@mugberto](https://github.com/mugberto)
 - Twitter: [@mugberto](https://twitter.com/mugberto)
-- Linkedin: [mugberto](https://linkedin.com/mugberto)
+- Linkedin: [mugberto](https://www.linkedin.com/in/hubert-mugabo-23144b6a/)
   ​
-  👤 **Marshall AKPAN**
+👤 **Marshall AKPAN**
   ​
 - Github: [@uimarshall](https://github.com/uimarshall)
 - Twitter: [@uimarshall](https://twitter.com/uimarshall)
@@ -50,7 +50,7 @@ This repository is for cloning youtube web page.
 ​
 Contributions, issues and feature requests are welcome!
 ​
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/uimarshall/Embedding-Images-and-Video/issues).
 ​
 
 ## Show your support
