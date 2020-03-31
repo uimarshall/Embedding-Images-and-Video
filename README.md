@@ -4,14 +4,10 @@ This repository is for cloning youtube web page.
 
 > Cloning youtube page.
 > ​
-> ![screenshot](./app_screenshot.png)
-> ​
-> Additional description about the project and its features.
+> ![screenshot](./images/screenshot.png)
 > ​
 
 ## Built With
-
-​
 
 - HTML
 - CSS
@@ -21,7 +17,7 @@ This repository is for cloning youtube web page.
 ## Live Demo
 
 ​
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/uimarshall/Embedding-Images-and-Video/feature/creating-youtube-home-page/index.html)
 ​
 ​
 
@@ -65,14 +61,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-​
+- Fontawesome
+- Our Stand up teams
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
   ​
-
 ## �� License
-
 ​
 This project is [MIT](lic.url) licensed.
